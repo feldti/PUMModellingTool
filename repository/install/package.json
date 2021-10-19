@@ -1,0 +1,83 @@
+{
+	"name": "SenchaCommunityDaysDemo",
+	"type": "code",
+	"creator": "Marten Feldtmann",
+	"summary": "Short Summary",
+	"detailedDescription": "Long description of package",
+	"version": "0.1",
+	"compatVersion": "0.1",
+	"format": "1",
+	"local": true,
+	"requires": [],
+	"architect": { 
+		"compatFrameworks": [ "ext65" ],
+		"classes": [ 
+			{
+				"definition": "SCDAPIErrorDef.js",
+				"className": "Application.model.SCDAPIError",
+				"js": ["SCDAPIError.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPIPagedRequestDef.js",
+				"className": "Application.model.SCDAPIPagedRequest",
+				"js": ["SCDAPIPagedRequest.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPIPRCustomerProjectListStoreDef.js",
+				"className": "Application.model.SCDAPIPRCustomerProjectListStore",
+				"js": ["SCDAPIPRCustomerProjectListStore.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPIPRCustomerProjectListCallDef.js",
+				"className": "Application.model.SCDAPIPRCustomerProjectListCall",
+				"js": ["SCDAPIPRCustomerProjectListCall.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPICustomerProjectListStorePLDef.js",
+				"className": "Application.model.SCDAPICustomerProjectListStorePL",
+				"js": ["SCDAPICustomerProjectListStorePL.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPICustomerProjectListCallPLDef.js",
+				"className": "Application.model.SCDAPICustomerProjectListCallPL",
+				"js": ["SCDAPICustomerProjectListCallPL.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPIProjectDef.js",
+				"className": "Application.model.SCDAPIProject",
+				"js": ["SCDAPIProject.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPIGeneralResultDef.js",
+				"className": "Application.model.SCDAPIGeneralResult",
+				"js": ["SCDAPIGeneralResult.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPICustomerProjectListStoreRLDef.js",
+				"className": "Application.model.SCDAPICustomerProjectListStoreRL",
+				"js": ["SCDAPICustomerProjectListStoreRL.js"],
+				"css": []
+			},
+			{
+				"definition": "SCDAPICustomerProjectListCallRLDef.js",
+				"className": "Application.model.SCDAPICustomerProjectListCallRL",
+				"js": ["SCDAPICustomerProjectListCallRL.js"],
+				"css": []
+			},
+			{
+				"definition": "CustomerProjectListDef.js",
+				"className": "Application.store.CustomerProjectList",
+				"js": ["SCDAPIProject.js", "CustomerProjectList.js"],
+				"css": []
+			}
+		]
+	}
+}
