@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "PUM"
-#define MyAppVersion "09.97 (VA 9.2)"
+#define MyAppVersion "10.00 (VA 9.2)"
 #define MyAppPublisher "Marten Feldtmann"
 #define MyAppURL "https://feldtmann.ddns.net/"
 #define MyAppExeName "pum.exe"
